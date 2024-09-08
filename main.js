@@ -7,7 +7,7 @@ import BoardGame from "./src/Objects/BoardGame";
 
 // boa pratica usar $ para variaveis que guardam elementos do DOM
 const $root = document.querySelector("#root");
-const $htmlBoardGame = BoardGame(4);
+const $htmlBoardGame = BoardGame(6);
 
 $root.insertAdjacentHTML("beforeend", $htmlBoardGame);
 
