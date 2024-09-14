@@ -1,10 +1,11 @@
 .card-game {
+    box-sizing: border-box;
     background-color: var(--color-alura);
-    width: 130px;
-    height: 160px;
+    width: var(--card-width);
+    height: var(--card-height);
     display: flex;
     justify-content: center;
     align-items: center;
     border: var(--color-floral-white) 4px solid;
-
 }
+

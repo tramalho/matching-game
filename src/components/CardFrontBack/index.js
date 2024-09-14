@@ -1,10 +1,15 @@
-import CardGame from '../CardGame';
+import CardGame from "../CardGame";
+import "./style.css";
 
 function CardFrontBack() {
-  return /*html*/`
-    <article class="card-front-back">
-      ${CardGame()}
-      ${CardGame("javascript", "Logo do Javascript")}
+  return /*html*/ `
+  <article class="card-front-back">
+    <div class="card -front">
+        ${CardGame()}      
+    </div>
+    <div class="card -back">
+        ${CardGame("js", "Logo do Javascript")}
+    </div>
     </article>
   `;
 }
