@@ -7,12 +7,7 @@ function CardFrontBack() {
     const classElement = "-active";
     const $origin = event.target
     const $cardFrontBack = $origin.closest(".card-front-back");
-
-    if($cardFrontBack.classList.contains(classElement)){
-      $cardFrontBack.classList.remove(classElement);    
-    } else {
-      $cardFrontBack.classList.add(classElement);
-    }
+    $cardFrontBack.classList.toggle(classElement);
     console.log($cardFrontBack);
   }
 
